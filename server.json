@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.sellm/mcp",
+  "title": "Sellm",
+  "description": "Track AI search visibility, brand mentions, citations, competitors, and share of voice across ChatGPT, Perplexity, Gemini, Grok, Copilot, and Google AI.",
+  "version": "1.0.0",
+  "websiteUrl": "https://sellm.io/docs/api/getting-started/mcp",
+  "repository": {
+    "url": "https://github.com/sellm-hq/sellm-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sellm.io/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token using your Sellm API key (sellm_...)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

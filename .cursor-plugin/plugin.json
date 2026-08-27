@@ -1,0 +1,42 @@
+{
+  "name": "sellm",
+  "version": "1.0.0",
+  "description": "Track AI search visibility, brand mentions, citations, competitors, sentiment, and share of voice across ChatGPT, Perplexity, Gemini, Copilot, Grok, and Google AI.",
+  "author": {
+    "name": "Sellm",
+    "email": "info@sellm.io"
+  },
+  "homepage": "https://sellm.io/docs/api/getting-started/mcp",
+  "repository": "https://github.com/sellm-hq/sellm-mcp",
+  "license": "MIT",
+  "keywords": [
+    "ai-visibility",
+    "ai-search",
+    "generative-engine-optimization",
+    "geo",
+    "llm-monitoring",
+    "brand-monitoring",
+    "share-of-voice",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "grok",
+    "copilot",
+    "google-ai",
+    "citations",
+    "seo"
+  ],
+  "logo": "assets/sellm-logo.svg",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SELLM_API_KEY": {
+        "type": "string",
+        "title": "Sellm API Key",
+        "description": "Your Sellm project or organization API key (sellm_...). Create one in Project Settings or Organization API Integrations."
+      }
+    },
+    "required": ["SELLM_API_KEY"]
+  }
+}

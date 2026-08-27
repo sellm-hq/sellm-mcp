@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "sellm": {
+      "url": "https://sellm.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SELLM_API_KEY}"
+      }
+    }
+  }
+}
